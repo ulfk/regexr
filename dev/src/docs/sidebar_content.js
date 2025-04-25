@@ -25,7 +25,7 @@ home.desc = "[from HTML]";
 home.kids = [
 
 
-	{
+	/*{
 	label: "Pattern Settings",
 	id: "share",
 	el: "#share_main",
@@ -51,7 +51,7 @@ home.kids = [
 		"<p>To edit a pattern you created, click its URL or double-click it in the list to load it, then open Save / Share to edit and save.</p>",
 	search: true,
 	kids: []
-	},
+	},*/
 
 	{
 	label: "Cheatsheet",
@@ -63,7 +63,7 @@ home.kids = [
 	id:"reference"
 	},
 
-	{
+	/*{
 	label: "Community Patterns",
 	id: "community",
 	desc: "Welcome to Community Patterns, a searchable database of patterns submitted by users like you."+
@@ -71,7 +71,7 @@ home.kids = [
 		"<p>Help make the Community better by rating patterns, and submitting your own via <b>Search & Share</b> in the menu.</p>",
 	search: true,
 	kids: []
-	},
+	},*/
 
 	{
 	label: "Help",
@@ -155,14 +155,14 @@ home.kids = [
 			}
 		]
 		},
-		{
+		/*{
 		label:"Signing in",
 		id: "signin",
 		desc:"Before you sign in, RegExr creates a temporary account which relies on a browser cookie. This means you can't access your patterns on other computers, and that you could lose your patterns if your cookies are deleted or expire."+
 			"<p>Signing in creates a permanent account, so you can access your patterns anywhere, anytime.</p>"+
 			"<p>Your existing patterns &amp; favorites will automatically be assigned to the new account.</p>"+
 			"<p>We don't use your info for anything other than signing you into your RegExr account.</p>"
-		},
+		},*/
 		{
 		id: "engine",
 		label:"RegEx engines",

@@ -76,6 +76,7 @@ export default class RegExr extends EventDispatcher {
 	}
 
 	_initAds() {
+		return;//UK
 		_native && _native.init("CK7D65QM", { // "CK7D65QM" use "CK7D4KQE" to test Carbon ads
 			carbonZoneKey: 'CK7DPKQU',
 			targetClass: 'native-js'
