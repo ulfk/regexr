@@ -18,5 +18,6 @@ RegExr uses Gulp to manage the build process. You will need to install Node and 
 Running `gulp` (default) will run dev builds and set up a test server.
 
 # Bookmarks
-[Reddit comment about regexr.com](https://www.reddit.com/r/regex/comments/1k60oxp/the_best_regex_website_is_currently_down/)
+- [GitHub Issue regarding regexr.com outage](https://github.com/gskinner/regexr/issues/540)
+- [Reddit comment about regexr.com](https://www.reddit.com/r/regex/comments/1k60oxp/the_best_regex_website_is_currently_down/)
 
