@@ -22,7 +22,9 @@ window._native = function () {
 	};
 
 	var init = function init(zone, options) {
-		_options = _construct(options);
+        return;//UK
+		/*
+        _options = _construct(options);
 
 		var jsonUrl = 'https://srv.buysellads.com/ads/' + zone + '.json?callback=_native_go';
 		if (_options['placement'] !== '') {
@@ -35,14 +37,18 @@ window._native = function () {
 		var srv = document.createElement('script');
 		srv.src = jsonUrl;
 		document.getElementsByTagName('head')[0].appendChild(srv);
+        */
 	};
 
 	var carbon = function carbon(e) {
+        return;//UK
+        /*
 		var srv = document.createElement('script');
 		srv.src = '//cdn.carbonads.com/carbon.js?serve=' + e['carbonZoneKey'] + '&placement=' + e['placement'];
 		srv.id = '_carbonads_js';
 
 		return srv;
+        */
 	};
 
 	var sanitize = function sanitize(ads) {
@@ -77,6 +83,7 @@ window._native = function () {
 }({});
 
 window._native_go = function (json) {
+	return;//UK
 	var options = _native.options();
 	var ads = _native.sanitize(json['ads']);
 	var selectedClass = document.querySelectorAll('.' + options['targetClass']);
