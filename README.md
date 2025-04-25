@@ -7,7 +7,7 @@ This is a fork of the project [gskinner/regexr](https://github.com/gskinner/rege
 
 After I noticed that the page https://regexr.com went offline, I wanted to get this cool tool back and tried to get it running locally. Needed to update several packages and do some minor fixes.
 
-This is WIP to understand the project and adapt it to no remove adds etc.
+This is WIP to understand the project and adapt it, remove adds etc.
 
 # License
 This version of RegExr is licensed under GPL v3 (as the original project is).
